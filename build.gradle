@@ -161,6 +161,8 @@ configure(allprojects) { project ->
 			dependency "commons-fileupload:commons-fileupload:1.4"
 			dependency "org.synchronoss.cloud:nio-multipart-parser:1.1.0"
 
+			dependency "xml-apis:xml-apis:1.0.b2"
+
 			dependency("dom4j:dom4j:1.6.1") {
 				exclude group: "xml-apis", name: "xml-apis"
 			}
